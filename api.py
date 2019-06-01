@@ -307,19 +307,3 @@ def internal_server_error(e):
 if __name__ == '__main__':
     # 课程安排 POST 查询入口
     app.run(host="0.0.0.0", port=8383)
-    # classTableUrl = "http://218.61.108.169/jwglxt/kbcx/xskbcx_cxXsKb.html?gnmkdm=N2151"
-    # # xnm 所选学年  2017 就是 2017-2018, 2016 就是2016-2017
-    # # xqm 所需学期  3 是第一学期，12 是第二学期
-    # data = [
-    #     ("xnm", "2018"),
-    #     ("xqm", "12")
-    # ]
-    # client = Core("17061211", "aixiao74525.").login()
-    # response = client.post(classTableUrl,
-    #                        data=data
-    #                        )
-    # dic = response.json()
-    # print(dic)
-    # # b = TablesOP().setFormatDict(dic)
-    # # a = commandShowTables(b)
-    # # a.showTables()
