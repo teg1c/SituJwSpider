@@ -1,13 +1,11 @@
 🏰新版正方教务爬虫 For Python3
 
-# 依赖
+# 安装依赖
 
-- requests
-- lxml
-- six
-- rsa
-- bs4
-- Flask
+```
+pip3 install requests lxml six rsa bs4 Flask
+
+```
 
 # 运行
 
